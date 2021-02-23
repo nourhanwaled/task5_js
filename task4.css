@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+/*change back groundcolor*/
+.btn1{
+   width: 150px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-size:16px;
+    font-family: sans-serif;
+    font-style: italic;
+    border-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-size:16px;
+    font-family: sans-serif;
+    font-style: italic;
+    border-color: white;
+    margin-top: 10px;
+    position: relative; 
+}
+/*souq car*/
+.car{
+    width: 200px;
+    position: relative;
+    height: 200px;
+    background-image: url(../task4_js/images/pic1.png);
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.count{
+    font-size: 18px;
+    position: absolute;
+    top: 48%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+}
+.btns{
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+/*js slider*/
+body{
+    background-color: rgb(235,226,226);
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 16%;
+    height: 10px;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 40%;
+    height: 62vh;
+    box-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding: 30px;
+    margin-left: 130px;
+}
+.img-container{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: aqua;
+    position: relative;
+}
+#pic1,#pic2,#pic3{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: -5%;
+}
+.img-container::after{
+    content: open-quote;
+    position: absolute;
+    top: 4%;
+    left: -6.5%;
+    font-size: 50px;
+    background-color: aqua;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+#auther,#auther2,#auther3{
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+#jop,#jop2,#jop3{
+    font-size: 17px;
+    color: aqua;
+}
+#info,#info,#info3{
+    color: #555;
+}
+.btn2{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn2 i{
+    color: aqua;
+    font-size: 40px;
+}
+.random-btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid aqua;
+    color: aqua;
+    border-radius: 15px;
+    padding: 7px 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    outline:none;
+}
+.random-btn:hover{
+    background-color: aqua;
+    color: white;
+}
+.display2{
+    display: flex;
+    justify-content: space-around;
+}
